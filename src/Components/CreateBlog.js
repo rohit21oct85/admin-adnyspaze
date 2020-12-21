@@ -137,7 +137,6 @@ const CreateBlog = () => {
                             key={index}
                             selected={(blog && blog.category === value.slug)?'selected':''}
                             >{value.name}</option>
-                        
                         );
                     })} 
                     </select>
